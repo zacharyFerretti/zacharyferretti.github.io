@@ -7,6 +7,7 @@ body {
   text-align: center;
 }
 h2 {
+  text-shadow:2px 2px #b3b3b3;
   color: #353535;
   font-size: 2vw;
   margin: 0 auto -1.75vh;
