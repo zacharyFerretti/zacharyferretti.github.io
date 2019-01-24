@@ -25,11 +25,14 @@ p{
   font-weight: 300;
 }
 img{
+  transition: transform .2s;
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 65%;  
   max-height: 540px;
+}img:hover{
+  transform: scale(1.10);
 }
 span{
   font-weight: 700;
@@ -41,7 +44,15 @@ h3{
   font-family: 'Kalam', cursive;
   color: #353535;
   text-align: center;
+  text-shadow:2px 2px #c3c3c3;
 }
+
+/*.photo{
+  transition: transform .2s;
+}
+.photo:hover{
+  transform: scale(1.5);
+}*/
 .coloradoFirst{
   position: absolute;
   clip: rect(0, 1920px, 1080px, 0);
