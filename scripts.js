@@ -34,6 +34,42 @@ $(document).ready(function(){
         $(this).parent().parent().removeClass("scotland");
     });
 });
+$(document).ready(function(){
+    $(".ir").hover(function(){
+        $(this).parent().parent().addClass("ireland");
+    });
+    $(".ir").mouseleave(function(){
+        //$(this).parent().parent().addClass("overlay");
+        $(this).parent().parent().removeClass("ireland");
+    });
+});
+$(document).ready(function(){
+    $(".de").hover(function(){
+        $(this).parent().parent().addClass("denmark");
+    });
+    $(".de").mouseleave(function(){
+        //$(this).parent().parent().addClass("overlay");
+        $(this).parent().parent().removeClass("denmark");
+    });
+});
+$(document).ready(function(){
+    $(".sw").hover(function(){
+        $(this).parent().parent().addClass("sweden");
+    });
+    $(".sw").mouseleave(function(){
+        //$(this).parent().parent().addClass("overlay");
+        $(this).parent().parent().removeClass("sweden");
+    });
+});
+$(document).ready(function(){
+    $(".en").hover(function(){
+        $(this).parent().parent().addClass("england");
+    });
+    $(".en").mouseleave(function(){
+        //$(this).parent().parent().addClass("overlay");
+        $(this).parent().parent().removeClass("england");
+    });
+});
 
 $(document).ready(function(){
     $(".nh").hover(function(){
