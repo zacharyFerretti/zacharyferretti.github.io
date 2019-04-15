@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="style2.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- MAIN (Center website) -->
+	<div class="main">
+		<div class="navbar" id = 'myNavBar'>
+			<a href="./new.html" id = "aboutLink">Zachary Ferretti <br/> Photography</a>
+			<a href="./blog.html" class = 'regularLink'>Blog</a>
+			<a href="./animals.html" class = 'regularLink'>Animals</a>
+			<a href="./architecture.html" class = 'regularLink'>Architecture</a>
+			<a href="./oceans.html" class = 'regularLink'>Oceans</a>
+			<a href="./forests.html" class = 'regularLink'>Forests</a>
+			<a href="./mountains.html" class = 'regularLink'>Mountains</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+		<img src="./images/Ocean/ocean01.jpg" alt="Mountains" style="width:100%">
+		<img src="./images/Ocean/ocean02.jpg" alt="Mountains" style="width:100%">
+		<img src="./images/Ocean/ocean05.jpg" alt="Mountains" style="width:100%">
+		<img src="./images/Ocean/ocean06.jpg" alt="Mountains" style="width:100%">
+		<img src="./images/Ocean/ocean07.jpg" alt="Mountains" style="width:100%">
+		<img src="./images/Ocean/ocean08.jpg" alt="Mountains" style="width:100%">
+		<img src="./images/Ocean/ocean09.jpg" alt="Mountains" style="width:100%">
+		<img src="./images/Ocean/ocean10.jpg" alt="Mountains" style="width:100%">
+		<img src="./images/Ocean/ocean11.jpg" alt="Mountains" style="width:100%">
+		<!-- END MAIN -->
+	</div>
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myNavBar");
+			if (x.className === "navbar") {
+				x.className += " responsive";
+			} else {
+				x.className = "navbar";
+			}
+		} 
+	</script>
+
+</body>
+</html>
