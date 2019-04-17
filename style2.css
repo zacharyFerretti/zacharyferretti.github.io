@@ -13,6 +13,21 @@ h2 {
   word-break: break-all;
   text-align: center;
 }
+.container {
+  z-index: -5;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  color:black;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 175%;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 .navbar {
   overflow: hidden;
   position:fixed;
