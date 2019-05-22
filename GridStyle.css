@@ -1,0 +1,50 @@
+.grid{
+	text-align: center;
+}
+.row {
+	transition-duration: 1s;
+	display:inline-block;
+	width: 20vw;
+	height:20vw;
+	color:white;
+	margin: 1.5%;
+}
+.row:hover {
+	transform: scale(1.13);
+}
+
+img {
+	object-fit: contain;
+	width:100%;
+	padding-bottom: 0px;
+}
+#oneA{
+	background-image: url('./smallImages/theWoods/switzerland_0017.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#oneB{
+	background-image: url('./smallImages/theWoods/scotland_0017.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#oneC{
+	background-image: url('./fullImages/theWoods/Portfolio_0006.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#twoA{
+	background-image: url('./smallImages/theWoods/IMG_3294.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#twoB{
+	background-image: url('./smallImages/theWoods/colorado_0031.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#twoC{
+	background-image: url('./smallImages/theWoods/colorado_0018.jpg');
+	background-size: cover;
+	background-position: center;
+}
