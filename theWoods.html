@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Woods</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="responsiveGridStyle.css" rel="stylesheet" type="text/css">
+	<link href="generalSiteStyle.css" rel="stylesheet" type="text/css">
+	<link href="theWoods.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="scripts.js"></script>
+</head>
+
+<body>
+	<header>
+		<h3> Zachary Ferretti </h3>
+	</header>
+	<p> Welcome to the Woods.
+	Where do you want to go next?</p>
+	<nav class="navbar" id = 'myNavBar'>
+		<a href="./theZoo.html" class = 'regularLink'>The Zoo</a>
+		<a href="./theCity.html" class = 'regularLink'>The City</a>
+		<a href="./theOpenRoad.html" class = 'regularLink'>The Open Road</a>
+		<a href="./theWoods.html" class = 'regularLink'>The Woods</a>
+		<a href="./theOcean.html" class = 'regularLink'>The Water</a>
+		<a href="./theMountains.html" class = 'regularLink'>The Mountains</a>
+		<a href="./theAbstract.html" class = 'regularLink'>The Abstract</a>
+		<a href="./theBlog.html" class = 'regularLink'>The Blog</a>
+		<a href="./theEurope.html" class = 'regularLink'>Europe</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</nav>
+
+	<div id = "myModal" class = "modal">
+			<span class="close" onclick="closeModal()">&times;</span>
+			<div class="modal-content" id="img01"></div>
+			<div id="caption"></div>
+	</div>
+
+	<!--<div class = "grid">
+		<div class = "row" id = "oneA" onclick="modalShit(this)" alt="Three Brothers - Zermatt April 2019"></div>
+		<div class = "row" id = "oneB"></div>
+		<div class = "row" id = "twoA"></div>
+		<div class = "row" id = "twoB"></div>
+		<div class = "row" id = "twoC"></div>
+	</div>-->
+	<div class = "grid">
+		<div class = "row threeBrothers imageFormatting" onclick="modalShit(this,'rectangle')" alt="Zermatt, Switzerland - April 4th, 2019"></div>
+		<div class = "row scottishFall imageFormatting" onclick="modalShit(this,'rectangle')" alt="Dollar, Scotland - January 12th, 2019"></div>
+		<div class = "row amherstTrees imageFormatting" onclick="modalShit(this,'pano')" alt="Amherst, Massachusetts - November 2nd, 2018"></div>
+		<div class = "row loneRanger imageFormatting" onclick="modalShit(this,'rectangle')" alt = "Aspen , Colorado - August 20th, 2018"></div>
+		<div class = "row emeraldLake imageFormatting" onclick="modalShit(this,'rectangle')" alt = "Estes Park , Colorado - August 26th, 2018"></div>
+		<div class = "row amherstFlowers imageFormatting" onclick="modalShit(this,'square')" alt = "Amherst , Massachusetts - May 7th, 2018"></div>
+		<div class = "row eastonFlowers imageFormatting" onclick="modalShit(this,'vertical')" alt = "Easton , Massachusetts - September 1st, 2017"></div>
+	</div>
+	
+	<script>
+		$(document).keydown(function(event) { 
+		  if (event.keyCode == 27) { 
+		    var modal = document.getElementById("myModal");
+			modal.style.display = "none";
+		  }
+		});
+	</script>
+</body>
+</html>
