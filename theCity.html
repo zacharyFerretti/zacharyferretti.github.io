@@ -43,12 +43,17 @@
 
 	<!--<div class = "grid">
 		<div class = "row" id = "oneA" onclick="modalShit(this)" alt="Three Brothers - Zermatt April 2019"></div>
-		<div class = "row" id = "oneB"></div>
 		<div class = "row" id = "twoA"></div>
 		<div class = "row" id = "twoB"></div>
 		<div class = "row" id = "twoC"></div>
 	</div>-->
 	<div class = "grid">
+		<!--London-->
+		<div class = "row lonSunset imageFormatting" onclick="modalShit(this,'rectangle')" alt= "London, England - May 30th, 2019"></div>
+		<div class = "row lonPaintings imageFormatting" onclick="modalShit(this,'rectangle')" alt= "London, England - May 30th, 2019"></div>
+		<div class = "row lonTowerBridge imageFormatting" onclick="modalShit(this,'vertical')" alt= "London, England - May 30th, 2019"></div>
+
+
 		<!--Heidelberg-->
 		<div class = "row heidPano imageFormatting" onclick="modalShit(this,'widerpano')" alt="Heidelberg, Germany - May 19th, 2019"></div>
 		<div class = "row heidVert imageFormatting" onclick="modalShit(this,'vertical')" alt="Heidelberg, Germany - May 18th, 2019"></div>
@@ -70,7 +75,7 @@
 		<div class = "row denChurch imageFormatting" onclick="modalShit(this,'rectangle')" alt = "Copenhagen, Denmark - February 22nd, 2019"></div>
 		<div class = "row denGuard imageFormatting" onclick="modalShit(this,'rectangle')" alt = "Copenhagen, Denmark - February 22nd, 2019"></div>
 		<div class = "row denCourt imageFormatting" onclick="modalShit(this,'pano')" alt = "Copenhagen, Denmark - February 22nd, 2019"></div>
-		
+
 		<!--Edinburgh-->
 
 		<div class = "row ediCityPano imageFormatting" onclick="modalShit(this,'widerpano')"alt = "Edinburgh, Scotland - February 15th, 2019"></div>
@@ -99,10 +104,10 @@
 		<div class = "row nycGrand imageFormatting" onclick="modalShit(this,'vertical')"alt = "New York City, New York - January 9th, 2018"></div>
 
 	</div>
-	
+
 	<script>
-		$(document).keydown(function(event) { 
-		  if (event.keyCode == 27) { 
+		$(document).keydown(function(event) {
+		  if (event.keyCode == 27) {
 		    var modal = document.getElementById("myModal");
 			modal.style.display = "none";
 		  }
